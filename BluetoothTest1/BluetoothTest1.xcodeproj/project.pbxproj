@@ -1,0 +1,730 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39C41EFDA6E0548A5884C833 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 825FE0903788628B6875D771 /* libPods.a */; };
+		C385801F1B8F3DE300FC8DA7 /* TCPRequestXMLData.m in Sources */ = {isa = PBXBuildFile; fileRef = C385801E1B8F3DE300FC8DA7 /* TCPRequestXMLData.m */; };
+		C38580221B8F3DF800FC8DA7 /* TCPUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C38580211B8F3DF800FC8DA7 /* TCPUtils.m */; };
+		C3CF5EA51B844D5200182618 /* ModifyPsdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CF5EA41B844D5200182618 /* ModifyPsdViewController.m */; };
+		C3D382811B8B0E36003FFF0B /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D382801B8B0E36003FFF0B /* MainViewController.m */; };
+		C3D382851B8B0F0E003FFF0B /* ClientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D382841B8B0F0E003FFF0B /* ClientViewController.m */; };
+		C3D3828E1B8B0FD4003FFF0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3D3828C1B8B0FD4003FFF0B /* Main.storyboard */; };
+		C3D4D0121B87190F00E2943A /* ModifyNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D4D0111B87190F00E2943A /* ModifyNameViewController.m */; };
+		C3D575D71B8D60AE002C42F8 /* TCPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D575D61B8D60AE002C42F8 /* TCPClient.m */; };
+		C3D6180E1B900AF8003DC2D5 /* TCPCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D6180D1B900AF8003DC2D5 /* TCPCommand.m */; };
+		C3D61BBF1B9D221B00F9781D /* NSData+AES.mm in Sources */ = {isa = PBXBuildFile; fileRef = C3D61BBE1B9D221B00F9781D /* NSData+AES.mm */; };
+		C3D767B11B857B7D00283A6A /* BluetoothCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D767B01B857B7D00283A6A /* BluetoothCommand.m */; };
+		C3DDCC401B830FBF002AA306 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DDCC3F1B830FBF002AA306 /* main.m */; };
+		C3DDCC431B830FBF002AA306 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = C3DDCC421B830FBF002AA306 /* AppDelegate.mm */; };
+		C3DDCC4B1B830FBF002AA306 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3DDCC4A1B830FBF002AA306 /* Images.xcassets */; };
+		C3DDCC4E1B830FBF002AA306 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3DDCC4C1B830FBF002AA306 /* LaunchScreen.xib */; };
+		C3DDCC5A1B830FC0002AA306 /* BluetoothTest1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DDCC591B830FC0002AA306 /* BluetoothTest1Tests.m */; };
+		C3DDCC651B8321C6002AA306 /* CentralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DDCC641B8321C6002AA306 /* CentralViewController.m */; };
+		C3DDCC6B1B832218002AA306 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DDCC6A1B832218002AA306 /* BaseViewController.m */; };
+		C3DDCC6E1B834357002AA306 /* PerpheralListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DDCC6D1B834357002AA306 /* PerpheralListViewController.m */; };
+		C3DDCC711B834CBF002AA306 /* BluetoothCentral.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DDCC701B834CBF002AA306 /* BluetoothCentral.m */; };
+		C3E762521B96936D005167A4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E762511B96936D005167A4 /* Security.framework */; };
+		C3E762541B969373005167A4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E762531B969373005167A4 /* CFNetwork.framework */; };
+		C3E7628C1B969B2E005167A4 /* KWOfficeResouresFiles in Resources */ = {isa = PBXBuildFile; fileRef = C3E7628A1B969B2E005167A4 /* KWOfficeResouresFiles */; };
+		C3E7628D1B969B2E005167A4 /* libKingsoftOfficeSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E7628B1B969B2E005167A4 /* libKingsoftOfficeSDK.a */; };
+		C3E762A41B96A350005167A4 /* 星星.png in Resources */ = {isa = PBXBuildFile; fileRef = C3E762A31B96A350005167A4 /* 星星.png */; };
+		C3E762A51B96A91C005167A4 /* 休闲时光.ppt in Resources */ = {isa = PBXBuildFile; fileRef = C3E762A01B96A297005167A4 /* 休闲时光.ppt */; };
+		C3E762A61B96A91C005167A4 /* 贷款计算器.xls in Resources */ = {isa = PBXBuildFile; fileRef = C3E762A11B96A297005167A4 /* 贷款计算器.xls */; };
+		C3E762A71B96A91C005167A4 /* 欢迎使用WPS.doc in Resources */ = {isa = PBXBuildFile; fileRef = C3E762A21B96A297005167A4 /* 欢迎使用WPS.doc */; };
+		C3E762FC1B96F7B0005167A4 /* Aes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3E762F91B96F7B0005167A4 /* Aes.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3DDCC541B830FC0002AA306 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3DDCC321B830FBF002AA306 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3DDCC391B830FBF002AA306;
+			remoteInfo = BluetoothTest1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		825FE0903788628B6875D771 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9763F9CEBD18D76CE0800CB3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		C385801D1B8F3DE300FC8DA7 /* TCPRequestXMLData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCPRequestXMLData.h; sourceTree = "<group>"; };
+		C385801E1B8F3DE300FC8DA7 /* TCPRequestXMLData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCPRequestXMLData.m; sourceTree = "<group>"; };
+		C38580201B8F3DF800FC8DA7 /* TCPUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCPUtils.h; sourceTree = "<group>"; };
+		C38580211B8F3DF800FC8DA7 /* TCPUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCPUtils.m; sourceTree = "<group>"; };
+		C3CF5EA31B844D5200182618 /* ModifyPsdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModifyPsdViewController.h; sourceTree = "<group>"; };
+		C3CF5EA41B844D5200182618 /* ModifyPsdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModifyPsdViewController.m; sourceTree = "<group>"; };
+		C3D3827F1B8B0E36003FFF0B /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		C3D382801B8B0E36003FFF0B /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		C3D382831B8B0F0E003FFF0B /* ClientViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClientViewController.h; sourceTree = "<group>"; };
+		C3D382841B8B0F0E003FFF0B /* ClientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClientViewController.m; sourceTree = "<group>"; };
+		C3D3828D1B8B0FD4003FFF0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C3D4D0101B87190F00E2943A /* ModifyNameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModifyNameViewController.h; sourceTree = "<group>"; };
+		C3D4D0111B87190F00E2943A /* ModifyNameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModifyNameViewController.m; sourceTree = "<group>"; };
+		C3D575D51B8D60AE002C42F8 /* TCPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCPClient.h; sourceTree = "<group>"; };
+		C3D575D61B8D60AE002C42F8 /* TCPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCPClient.m; sourceTree = "<group>"; };
+		C3D6180C1B900AF8003DC2D5 /* TCPCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCPCommand.h; sourceTree = "<group>"; };
+		C3D6180D1B900AF8003DC2D5 /* TCPCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCPCommand.m; sourceTree = "<group>"; };
+		C3D61BBD1B9D221B00F9781D /* NSData+AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES.h"; sourceTree = "<group>"; };
+		C3D61BBE1B9D221B00F9781D /* NSData+AES.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "NSData+AES.mm"; sourceTree = "<group>"; };
+		C3D767AF1B857B7D00283A6A /* BluetoothCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BluetoothCommand.h; sourceTree = "<group>"; };
+		C3D767B01B857B7D00283A6A /* BluetoothCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BluetoothCommand.m; sourceTree = "<group>"; };
+		C3DDCC3A1B830FBF002AA306 /* BluetoothTest1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BluetoothTest1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3DDCC3E1B830FBF002AA306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3DDCC3F1B830FBF002AA306 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C3DDCC411B830FBF002AA306 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C3DDCC421B830FBF002AA306 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		C3DDCC4A1B830FBF002AA306 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C3DDCC4D1B830FBF002AA306 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C3DDCC531B830FC0002AA306 /* BluetoothTest1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BluetoothTest1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3DDCC581B830FC0002AA306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3DDCC591B830FC0002AA306 /* BluetoothTest1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BluetoothTest1Tests.m; sourceTree = "<group>"; };
+		C3DDCC631B8321C6002AA306 /* CentralViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CentralViewController.h; sourceTree = "<group>"; };
+		C3DDCC641B8321C6002AA306 /* CentralViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CentralViewController.m; sourceTree = "<group>"; };
+		C3DDCC691B832218002AA306 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		C3DDCC6A1B832218002AA306 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		C3DDCC6C1B834357002AA306 /* PerpheralListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerpheralListViewController.h; sourceTree = "<group>"; };
+		C3DDCC6D1B834357002AA306 /* PerpheralListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PerpheralListViewController.m; sourceTree = "<group>"; };
+		C3DDCC6F1B834CBF002AA306 /* BluetoothCentral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BluetoothCentral.h; sourceTree = "<group>"; };
+		C3DDCC701B834CBF002AA306 /* BluetoothCentral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BluetoothCentral.m; sourceTree = "<group>"; };
+		C3E762511B96936D005167A4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C3E762531B969373005167A4 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		C3E762891B969B2E005167A4 /* KWOfficeApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWOfficeApi.h; sourceTree = "<group>"; };
+		C3E7628A1B969B2E005167A4 /* KWOfficeResouresFiles */ = {isa = PBXFileReference; lastKnownFileType = file; path = KWOfficeResouresFiles; sourceTree = "<group>"; };
+		C3E7628B1B969B2E005167A4 /* libKingsoftOfficeSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libKingsoftOfficeSDK.a; sourceTree = "<group>"; };
+		C3E762A01B96A297005167A4 /* 休闲时光.ppt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "休闲时光.ppt"; sourceTree = "<group>"; };
+		C3E762A11B96A297005167A4 /* 贷款计算器.xls */ = {isa = PBXFileReference; lastKnownFileType = file; path = "贷款计算器.xls"; sourceTree = "<group>"; };
+		C3E762A21B96A297005167A4 /* 欢迎使用WPS.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "欢迎使用WPS.doc"; sourceTree = "<group>"; };
+		C3E762A31B96A350005167A4 /* 星星.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "星星.png"; sourceTree = "<group>"; };
+		C3E762F91B96F7B0005167A4 /* Aes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Aes.cpp; sourceTree = "<group>"; };
+		C3E762FA1B96F7B0005167A4 /* Aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aes.h; sourceTree = "<group>"; };
+		C3E763011B971152005167A4 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		EB326718C597D7435FC19C52 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3DDCC371B830FBF002AA306 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3E762541B969373005167A4 /* CFNetwork.framework in Frameworks */,
+				C3E762521B96936D005167A4 /* Security.framework in Frameworks */,
+				39C41EFDA6E0548A5884C833 /* libPods.a in Frameworks */,
+				C3E7628D1B969B2E005167A4 /* libKingsoftOfficeSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3DDCC501B830FC0002AA306 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		277D8F7BCE4EF0901EF70128 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9763F9CEBD18D76CE0800CB3 /* Pods.debug.xcconfig */,
+				EB326718C597D7435FC19C52 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4A81E36DC3C752FD4B473E44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3E762531B969373005167A4 /* CFNetwork.framework */,
+				C3E762511B96936D005167A4 /* Security.framework */,
+				825FE0903788628B6875D771 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3B733881B8BFD63002AE05C /* BluetoothDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C3B733891B8BFD79002AE05C /* BluetoothClass */,
+				C3DDCC631B8321C6002AA306 /* CentralViewController.h */,
+				C3DDCC641B8321C6002AA306 /* CentralViewController.m */,
+				C3DDCC6C1B834357002AA306 /* PerpheralListViewController.h */,
+				C3DDCC6D1B834357002AA306 /* PerpheralListViewController.m */,
+				C3CF5EA31B844D5200182618 /* ModifyPsdViewController.h */,
+				C3CF5EA41B844D5200182618 /* ModifyPsdViewController.m */,
+				C3D4D0101B87190F00E2943A /* ModifyNameViewController.h */,
+				C3D4D0111B87190F00E2943A /* ModifyNameViewController.m */,
+			);
+			name = BluetoothDemo;
+			sourceTree = "<group>";
+		};
+		C3B733891B8BFD79002AE05C /* BluetoothClass */ = {
+			isa = PBXGroup;
+			children = (
+				C3DDCC6F1B834CBF002AA306 /* BluetoothCentral.h */,
+				C3DDCC701B834CBF002AA306 /* BluetoothCentral.m */,
+				C3D767AF1B857B7D00283A6A /* BluetoothCommand.h */,
+				C3D767B01B857B7D00283A6A /* BluetoothCommand.m */,
+			);
+			name = BluetoothClass;
+			sourceTree = "<group>";
+		};
+		C3D382821B8B0EFE003FFF0B /* TCPDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C3E762EB1B96F086005167A4 /* AES */,
+				C3E762881B969B1E005167A4 /* KOfficeSDK */,
+				C3D3828F1B8B16FC003FFF0B /* TCPSocketClass */,
+				C3D382831B8B0F0E003FFF0B /* ClientViewController.h */,
+				C3D382841B8B0F0E003FFF0B /* ClientViewController.m */,
+			);
+			name = TCPDemo;
+			sourceTree = "<group>";
+		};
+		C3D3828F1B8B16FC003FFF0B /* TCPSocketClass */ = {
+			isa = PBXGroup;
+			children = (
+				C3D575D51B8D60AE002C42F8 /* TCPClient.h */,
+				C3D575D61B8D60AE002C42F8 /* TCPClient.m */,
+				C3D6180C1B900AF8003DC2D5 /* TCPCommand.h */,
+				C3D6180D1B900AF8003DC2D5 /* TCPCommand.m */,
+				C385801D1B8F3DE300FC8DA7 /* TCPRequestXMLData.h */,
+				C385801E1B8F3DE300FC8DA7 /* TCPRequestXMLData.m */,
+				C38580201B8F3DF800FC8DA7 /* TCPUtils.h */,
+				C38580211B8F3DF800FC8DA7 /* TCPUtils.m */,
+			);
+			name = TCPSocketClass;
+			sourceTree = "<group>";
+		};
+		C3DDCC311B830FBF002AA306 = {
+			isa = PBXGroup;
+			children = (
+				C3DDCC3C1B830FBF002AA306 /* BluetoothTest1 */,
+				C3DDCC561B830FC0002AA306 /* BluetoothTest1Tests */,
+				C3DDCC3B1B830FBF002AA306 /* Products */,
+				277D8F7BCE4EF0901EF70128 /* Pods */,
+				4A81E36DC3C752FD4B473E44 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C3DDCC3B1B830FBF002AA306 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3DDCC3A1B830FBF002AA306 /* BluetoothTest1.app */,
+				C3DDCC531B830FC0002AA306 /* BluetoothTest1Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3DDCC3C1B830FBF002AA306 /* BluetoothTest1 */ = {
+			isa = PBXGroup;
+			children = (
+				C3DDCC411B830FBF002AA306 /* AppDelegate.h */,
+				C3DDCC421B830FBF002AA306 /* AppDelegate.mm */,
+				C3D3827F1B8B0E36003FFF0B /* MainViewController.h */,
+				C3D382801B8B0E36003FFF0B /* MainViewController.m */,
+				C3DDCC691B832218002AA306 /* BaseViewController.h */,
+				C3DDCC6A1B832218002AA306 /* BaseViewController.m */,
+				C3B733881B8BFD63002AE05C /* BluetoothDemo */,
+				C3D382821B8B0EFE003FFF0B /* TCPDemo */,
+				C3DDCC4A1B830FBF002AA306 /* Images.xcassets */,
+				C3DDCC4C1B830FBF002AA306 /* LaunchScreen.xib */,
+				C3D3828C1B8B0FD4003FFF0B /* Main.storyboard */,
+				C3DDCC3D1B830FBF002AA306 /* Supporting Files */,
+			);
+			path = BluetoothTest1;
+			sourceTree = "<group>";
+		};
+		C3DDCC3D1B830FBF002AA306 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3E763011B971152005167A4 /* PrefixHeader.pch */,
+				C3DDCC3E1B830FBF002AA306 /* Info.plist */,
+				C3DDCC3F1B830FBF002AA306 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C3DDCC561B830FC0002AA306 /* BluetoothTest1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C3DDCC591B830FC0002AA306 /* BluetoothTest1Tests.m */,
+				C3DDCC571B830FC0002AA306 /* Supporting Files */,
+			);
+			path = BluetoothTest1Tests;
+			sourceTree = "<group>";
+		};
+		C3DDCC571B830FC0002AA306 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3DDCC581B830FC0002AA306 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C3E762881B969B1E005167A4 /* KOfficeSDK */ = {
+			isa = PBXGroup;
+			children = (
+				C3E762A31B96A350005167A4 /* 星星.png */,
+				C3E762A01B96A297005167A4 /* 休闲时光.ppt */,
+				C3E762A11B96A297005167A4 /* 贷款计算器.xls */,
+				C3E762A21B96A297005167A4 /* 欢迎使用WPS.doc */,
+				C3E762891B969B2E005167A4 /* KWOfficeApi.h */,
+				C3E7628A1B969B2E005167A4 /* KWOfficeResouresFiles */,
+				C3E7628B1B969B2E005167A4 /* libKingsoftOfficeSDK.a */,
+			);
+			name = KOfficeSDK;
+			sourceTree = "<group>";
+		};
+		C3E762EB1B96F086005167A4 /* AES */ = {
+			isa = PBXGroup;
+			children = (
+				C3D61BBD1B9D221B00F9781D /* NSData+AES.h */,
+				C3D61BBE1B9D221B00F9781D /* NSData+AES.mm */,
+				C3E762F91B96F7B0005167A4 /* Aes.cpp */,
+				C3E762FA1B96F7B0005167A4 /* Aes.h */,
+			);
+			name = AES;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3DDCC391B830FBF002AA306 /* BluetoothTest1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3DDCC5D1B830FC0002AA306 /* Build configuration list for PBXNativeTarget "BluetoothTest1" */;
+			buildPhases = (
+				415780D859D3720645CAE162 /* Check Pods Manifest.lock */,
+				C3DDCC361B830FBF002AA306 /* Sources */,
+				C3DDCC371B830FBF002AA306 /* Frameworks */,
+				C3DDCC381B830FBF002AA306 /* Resources */,
+				096A5F2B1DFA30F2AD5759F0 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BluetoothTest1;
+			productName = BluetoothTest1;
+			productReference = C3DDCC3A1B830FBF002AA306 /* BluetoothTest1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3DDCC521B830FC0002AA306 /* BluetoothTest1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3DDCC601B830FC0002AA306 /* Build configuration list for PBXNativeTarget "BluetoothTest1Tests" */;
+			buildPhases = (
+				C3DDCC4F1B830FC0002AA306 /* Sources */,
+				C3DDCC501B830FC0002AA306 /* Frameworks */,
+				C3DDCC511B830FC0002AA306 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3DDCC551B830FC0002AA306 /* PBXTargetDependency */,
+			);
+			name = BluetoothTest1Tests;
+			productName = BluetoothTest1Tests;
+			productReference = C3DDCC531B830FC0002AA306 /* BluetoothTest1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3DDCC321B830FBF002AA306 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = 9377;
+				TargetAttributes = {
+					C3DDCC391B830FBF002AA306 = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 864SAG8P6E;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					C3DDCC521B830FC0002AA306 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = C3DDCC391B830FBF002AA306;
+					};
+				};
+			};
+			buildConfigurationList = C3DDCC351B830FBF002AA306 /* Build configuration list for PBXProject "BluetoothTest1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3DDCC311B830FBF002AA306;
+			productRefGroup = C3DDCC3B1B830FBF002AA306 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3DDCC391B830FBF002AA306 /* BluetoothTest1 */,
+				C3DDCC521B830FC0002AA306 /* BluetoothTest1Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3DDCC381B830FBF002AA306 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3E762A51B96A91C005167A4 /* 休闲时光.ppt in Resources */,
+				C3E762A61B96A91C005167A4 /* 贷款计算器.xls in Resources */,
+				C3E762A71B96A91C005167A4 /* 欢迎使用WPS.doc in Resources */,
+				C3D3828E1B8B0FD4003FFF0B /* Main.storyboard in Resources */,
+				C3E762A41B96A350005167A4 /* 星星.png in Resources */,
+				C3DDCC4E1B830FBF002AA306 /* LaunchScreen.xib in Resources */,
+				C3E7628C1B969B2E005167A4 /* KWOfficeResouresFiles in Resources */,
+				C3DDCC4B1B830FBF002AA306 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3DDCC511B830FC0002AA306 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		096A5F2B1DFA30F2AD5759F0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		415780D859D3720645CAE162 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3DDCC361B830FBF002AA306 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3DDCC711B834CBF002AA306 /* BluetoothCentral.m in Sources */,
+				C3D6180E1B900AF8003DC2D5 /* TCPCommand.m in Sources */,
+				C3CF5EA51B844D5200182618 /* ModifyPsdViewController.m in Sources */,
+				C3DDCC6B1B832218002AA306 /* BaseViewController.m in Sources */,
+				C3D767B11B857B7D00283A6A /* BluetoothCommand.m in Sources */,
+				C3DDCC431B830FBF002AA306 /* AppDelegate.mm in Sources */,
+				C38580221B8F3DF800FC8DA7 /* TCPUtils.m in Sources */,
+				C3D382851B8B0F0E003FFF0B /* ClientViewController.m in Sources */,
+				C3DDCC651B8321C6002AA306 /* CentralViewController.m in Sources */,
+				C3D61BBF1B9D221B00F9781D /* NSData+AES.mm in Sources */,
+				C385801F1B8F3DE300FC8DA7 /* TCPRequestXMLData.m in Sources */,
+				C3D382811B8B0E36003FFF0B /* MainViewController.m in Sources */,
+				C3D575D71B8D60AE002C42F8 /* TCPClient.m in Sources */,
+				C3E762FC1B96F7B0005167A4 /* Aes.cpp in Sources */,
+				C3D4D0121B87190F00E2943A /* ModifyNameViewController.m in Sources */,
+				C3DDCC6E1B834357002AA306 /* PerpheralListViewController.m in Sources */,
+				C3DDCC401B830FBF002AA306 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3DDCC4F1B830FC0002AA306 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3DDCC5A1B830FC0002AA306 /* BluetoothTest1Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3DDCC551B830FC0002AA306 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3DDCC391B830FBF002AA306 /* BluetoothTest1 */;
+			targetProxy = C3DDCC541B830FC0002AA306 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C3D3828C1B8B0FD4003FFF0B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3D3828D1B8B0FD4003FFF0B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C3DDCC4C1B830FBF002AA306 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3DDCC4D1B830FBF002AA306 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3DDCC5B1B830FC0002AA306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C3DDCC5C1B830FC0002AA306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3DDCC5E1B830FC0002AA306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9763F9CEBD18D76CE0800CB3 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BluetoothTest1/PrefixHeader.pch";
+				INFOPLIST_FILE = BluetoothTest1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BluetoothTest1",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"CocoaAsyncSocket\"",
+					"-l\"CocoaLumberjack\"",
+					"-l\"GDataXML-HTML\"",
+					"-l\"MBProgressHUD\"",
+					"-l\"XMLDictionary\"",
+					"-l\"xml2\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"Security\"",
+					"-lstdc++",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6a2cd519-4460-4b90-9957-5aaf6a1dafbe";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 arm7s arm64";
+			};
+			name = Debug;
+		};
+		C3DDCC5F1B830FC0002AA306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB326718C597D7435FC19C52 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BluetoothTest1/PrefixHeader.pch";
+				INFOPLIST_FILE = BluetoothTest1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BluetoothTest1",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"CocoaAsyncSocket\"",
+					"-l\"CocoaLumberjack\"",
+					"-l\"GDataXML-HTML\"",
+					"-l\"MBProgressHUD\"",
+					"-l\"XMLDictionary\"",
+					"-l\"xml2\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"Security\"",
+					"-lstdc++",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6a2cd519-4460-4b90-9957-5aaf6a1dafbe";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 arm7s arm64";
+			};
+			name = Release;
+		};
+		C3DDCC611B830FC0002AA306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BluetoothTest1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BluetoothTest1.app/BluetoothTest1";
+			};
+			name = Debug;
+		};
+		C3DDCC621B830FC0002AA306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BluetoothTest1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BluetoothTest1.app/BluetoothTest1";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3DDCC351B830FBF002AA306 /* Build configuration list for PBXProject "BluetoothTest1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3DDCC5B1B830FC0002AA306 /* Debug */,
+				C3DDCC5C1B830FC0002AA306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3DDCC5D1B830FC0002AA306 /* Build configuration list for PBXNativeTarget "BluetoothTest1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3DDCC5E1B830FC0002AA306 /* Debug */,
+				C3DDCC5F1B830FC0002AA306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3DDCC601B830FC0002AA306 /* Build configuration list for PBXNativeTarget "BluetoothTest1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3DDCC611B830FC0002AA306 /* Debug */,
+				C3DDCC621B830FC0002AA306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3DDCC321B830FBF002AA306 /* Project object */;
+}

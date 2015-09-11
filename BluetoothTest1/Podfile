@@ -1,0 +1,7 @@
+platform :ios, "6.0"
+
+pod 'CocoaAsyncSocket'
+pod 'MBProgressHUD', '~> 0.9.1'
+pod 'GDataXML-HTML', '~> 1.2.0'
+pod 'XMLDictionary', '~> 1.4'
+pod 'CocoaLumberjack'                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            

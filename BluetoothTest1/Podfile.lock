@@ -1,0 +1,29 @@
+PODS:
+  - CocoaAsyncSocket (7.4.2)
+  - CocoaLumberjack (2.0.1):
+    - CocoaLumberjack/Default (= 2.0.1)
+    - CocoaLumberjack/Extensions (= 2.0.1)
+  - CocoaLumberjack/Core (2.0.1)
+  - CocoaLumberjack/Default (2.0.1):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.0.1):
+    - CocoaLumberjack/Default
+  - GDataXML-HTML (1.2.0)
+  - MBProgressHUD (0.9.1)
+  - XMLDictionary (1.4)
+
+DEPENDENCIES:
+  - CocoaAsyncSocket
+  - CocoaLumberjack
+  - GDataXML-HTML (~> 1.2.0)
+  - MBProgressHUD (~> 0.9.1)
+  - XMLDictionary (~> 1.4)
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: f5783bdedd232d91b89769bc4b5a1580aed518ad
+  CocoaLumberjack: 019d1361244274a6138c788c6cb80baabc13fb8f
+  GDataXML-HTML: dac3692417e9fc612f8e12d8baae3706fccedcc8
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+  XMLDictionary: f9f51601ba76678b594ab485f2b00ec1fed23724
+
+COCOAPODS: 0.38.2
